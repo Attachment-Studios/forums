@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+	<title>Attachment Studios Forum</title>
+	<link href="page addons/css/all.css" rel="stylesheet">
+	<link href="page addons/tool-tip.css" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="title">
+		<center>
+			<h1>Attachment Studios Forums</h1>
+		</center>
+	</div>
+	<div class="toolbar">
+		<center>
+			<div class="actions">
+				<a class="tooltip" onclick="changeContent('profile')"><span class="tooltiptext">Profile</span><i class="fas fa-user-circle" style="font-size: 25px; text-align: center; margin-left: 5px; margin-right: 5px;"></i></a>
+				<a class="tooltip" onclick="changeContent('latest')"><span class="tooltiptext">Latest</span><i class="fas fa-clock" style="font-size: 25px; text-align: center; margin-left: 5px; margin-right: 5px;"></i></a>
+				<a class="tooltip" onclick="changeContent('create')"><span class="tooltiptext">Create</span><i class="fas fa-plus" style="font-size: 25px; text-align: center; margin-left: 5px; margin-right: 5px;"></i></a>
+				<a class="tooltip"><span class="tooltiptext">Search</span><i class="fas fa-search" style="font-size: 25px; text-align: center; margin-left: 5px; margin-right: 5px;"></i></a>
+				<input type="text" name="search-bar" id="search-bar" placeholder="Search Forums" />
+			</div>
+		</center>
+	</div>
+	<div class="topics" id="topics">
+		<div class="type">
+			<h3>About</h3>
+		</div>
+		<div class="results" id="results">
+			Attachment Studios Forums
+		</div>
+	</div>
+</body>
+</html>

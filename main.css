@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Grandstander:wght@100&display=swap');
+
+* {
+	background: #252525;
+	color: #b9b9b9;
+	font-family: 'Comfortaa';
+	user-select: none;
+}
+
+h1 {
+	font-size: 64px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+h6 {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+input {
+	border: 2px solid #b9b9b9;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+textarea {
+	border: 2px solid #b9b9b9;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+input#ftitle {
+	border: 2px solid #b9b9b9;
+	outline: none;
+	font-size: 24px;
+	padding: 10px;
+	margin: 0px;
+}
+
+.toolbar {
+	padding: 0px;
+}
+
+.actions {
+	border: 2px solid #b9b9b9;
+	padding: 10px;
+}
+
+button {
+	outline: none;
+	border: 2px solid #b9b9b9;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	background: #ffffff00;
+	color: #b9b9b9;
+}
+
+button:hover {
+	background: #ffffff15;
+}
+
+.actions input#search-bar {
+	border: 2px solid #b9b9b9;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.topics {
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #b9b9b9;
+}
+
+.type {
+	border: 2px solid #b9b9b9;
+	padding: 10px;
+}
+
+.results {
+	margin: 0;
+	border: 2px solid #b9b9b9;
+	padding: 10px;
+}
+
+.card {
+	margin: 0;
+	border: 2px solid #b9b9b9;
+	padding: 10px;
+}
+
+a#name {
+	text-decoration: underline;
+}
